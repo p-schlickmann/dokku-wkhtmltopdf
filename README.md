@@ -1,16 +1,13 @@
-# dokku-wkhtmltopdf
+# dokku-wkhtmltopdf 2023
 
-dokku-wkhtmltopdf is an awesome plugin for [dokku][dokku] that properly installs the wkhtmltopdf into the docker instance.
-This plugin should fix the problems you may have when downloading wkhtmltopdf with ```apt-get``` for example by using another awesome plugin [dokku-apt][dokku-apt].
+ is an awesome plugin for [dokku][dokku] that properly installs the wkhtmltopdf into the docker instance.
+
+This is a fork from [dokku-wkhtmltopdf][https://github.com/mbriskar/dokku-wkhtmltopdf] with updated libraries for 2023
 
 ## Installation
 
 On your dokku server:
 ```sh
-# On 0.3.x
-git clone https://github.com/mbriskar/dokku-wkhtmltopdf /var/lib/dokku/plugins/dokku-wkhtmltopdf
-
-# On 0.4.x
 dokku plugin:install https://github.com/mbriskar/dokku-wkhtmltopdf.git wkhtmltopdf
 ```
 
@@ -20,7 +17,7 @@ All future deployments will have dokku-wkhtmltopdf installed.
 
 The MIT License (MIT)
 
-Copyright (c) 2015 Matej Briškár
+Copyright (c) 2015 Matej Briškár && 2023 Pedro Schlickmann Mendes
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -39,6 +36,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
-[dokku]: https://github.com/progrium/dokku
-[dokku-apt]: https://github.com/F4-Group/dokku-apt
