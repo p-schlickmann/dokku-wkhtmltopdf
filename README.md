@@ -2,7 +2,7 @@
 
  is an awesome plugin for [dokku][dokku] that properly installs the wkhtmltopdf into the docker instance.
 
-This is a fork from [dokku-wkhtmltopdf][https://github.com/mbriskar/dokku-wkhtmltopdf] with updated libraries for 2023
+This is a fork from [dokku-wkhtmltopdf][https://github.com/p-schlickmann/dokku-wkhtmltopdf] with updated libraries for 2023
 
 ## Installation
 
